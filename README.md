@@ -1,6 +1,6 @@
 # scala_boilerplate
 
-a boilerplate for scala programs to be built and compiled with sbt. please note that this is configured to work with my scala setup, so this may not work for you. 
+a boilerplate for scala programs to be built and compiled with sbt. please note that this is configured to work with my scala setup, so this may not work for you - that being said, there are only a couple of edits to be made to get this running in your environment (file paths in build.sbt and simpleApp.scala)
 
 ## Installation
 
