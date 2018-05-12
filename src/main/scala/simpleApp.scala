@@ -7,6 +7,7 @@ object SimpleApp {
     val bw = new BufferedWriter(new FileWriter(file))
     val logFile = "/opt/spark/README.md" // Should be some file on your system
     val spark = SparkSession.builder.appName("Simple Application").getOrCreate()
+    val sc = new SparkContext(new SparkConf().setAppName("Simple App"))
     val logData = spark.read.textFile(logFile).cache()
     val numAs = logData.filter(line => line.contains("a")).count()
     val numBs = logData.filter(line => line.contains("b")).count()
