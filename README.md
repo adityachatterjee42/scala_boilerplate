@@ -1,6 +1,6 @@
 # scala_boilerplate
 
-a boilerplate for scala programs to be built and compiled with sbt
+a boilerplate for scala programs to be built and compiled with sbt. please note that this is configured to work with my scala setup, so this may not work for you. 
 
 ## Installation
 
